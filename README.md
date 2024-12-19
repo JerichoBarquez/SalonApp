@@ -12,7 +12,7 @@ Steps to run in localhost
    ngrok http 8080
 4. Start the websocket server/python app in your IDE
    uvicorn app.server:app --reload --port=8080
-5. In retell ai account, I selected the custom LLM. Ngrok will provide the URL to be entered in Retell AI LLM URL.
+6. In retell ai account, I selected the custom LLM. Ngrok will provide the URL to be entered in Retell AI LLM URL.
    I used the retell AI to test my agent instead. I was not able to use the https://github.com/RetellAI for my custom LLM agent. I was only able to use and test it when i am using the single prompt agent.
    Websocket URL should be something like this. wss://XXXXXXX.ngrok-free.app/llm-websocket
    
